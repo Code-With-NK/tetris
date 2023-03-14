@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+    border: none;
+    color: #1c1e22;
+    background-color: gold;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#start-button {
+    border: none;
+    color: white;
+    background-color: darkblue;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 21px;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #1c1e22;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #131519;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 21px;
+    box-sizing: border-box;
+    margin: 0px 5px;
+}
